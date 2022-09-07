@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="bmi_calculator">Tính Chỉ Số BMI</string>
+    <string name="your_weight_in_kg">Nhập Cân Nặng (Kg)</string>
+    <string name="weight">Cân Nặng</string>
+    <string name="your_height_in_cm">Nhập Chiều Cao (Cm)</string>
+    <string name="height">Chiều Cao</string>
+    <string name="calculate">Xem BMI</string>
+    <string name="your_result">Kết Quả</string>
+    <string name="bmi">BMI</string>
+    <string name="nh_n_x_t">Nhận Xét</string>
+    <string name="nguoi_gay">Người Gầy</string>
+    <string name="binh_thuong">Người Bình Thường</string>
+    <string name="beo_phi_1">Người Béo Phì Độ I</string>
+    <string name="beo_phi_2">Người Béo Phì Độ II</string>
+    <string name="beo_phi_3">Người Béo Phì Độ III</string>
+    <string name="chi_u_cao_cm">Nhập Chiều Cao</string>
+    <string name="nh_p_c_n_n_ng_kg">Nhập Cân Nặng</string>
+</resources>
