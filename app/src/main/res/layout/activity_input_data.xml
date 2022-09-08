@@ -41,18 +41,18 @@
 
         <Button
             android:id="@+id/btnSave1"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txt_btn_save_sqrt"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/txt_btn_save_sqrt" />
 
         <Button
             android:id="@+id/btnSave2"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/txt_btn_save_original"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:text="@string/txt_btn_save_original" />
     </LinearLayout>
 </LinearLayout>

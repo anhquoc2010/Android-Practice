@@ -6,4 +6,5 @@
     <string name="txt_hint">Nhập số</string>
     <string name="txt_btn_save_sqrt">Lưu Bình Phương</string>
     <string name="txt_btn_save_original">Lưu Số gốc</string>
+    <string name="txt_ds_so">Danh sách số</string>
 </resources>

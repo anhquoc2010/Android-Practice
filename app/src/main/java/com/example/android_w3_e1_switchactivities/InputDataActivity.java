@@ -33,8 +33,6 @@ public class InputDataActivity extends AppCompatActivity {
      * hàm xử lý gửi kết quả về mainactivity
      * khi hàm này được gọi thì lập tức onActivityResult
      * ở MainActivity sẽ xảy ra đem theo ResultCode và Intent
-     *
-     * @param resultcode
      */
     public void sendToMain(int resultcode) {
         Intent intent = getIntent();
