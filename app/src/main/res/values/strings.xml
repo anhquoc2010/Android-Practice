@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-W3-E1-SwitchActivities</string>
+    <string name="txt_btn_open_activity">Mở Activity Nhập Dữ Liệu</string>
+    <string name="txt_tv">Nhập số:</string>
+    <string name="input_number">Input Number</string>
+    <string name="txt_hint">Nhập số</string>
+    <string name="txt_btn_save_sqrt">Lưu Bình Phương</string>
+    <string name="txt_btn_save_original">Lưu Số gốc</string>
+</resources>
