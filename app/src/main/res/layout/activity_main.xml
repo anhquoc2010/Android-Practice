@@ -276,14 +276,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_percent="0.25" />
+                    app:layout_constraintGuide_percent="0.2" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guidelineQR2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_percent="0.35" />
+                    app:layout_constraintGuide_percent="0.3" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guidelineQR3"
@@ -300,19 +300,32 @@
                     app:layout_constraintGuide_percent="0.65" />
 
                 <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_divider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.495" />
+
+                <View
+                    android:layout_width="1.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="20dp"
+                    android:background="#E3E3E3"
+                    app:layout_constraintStart_toStartOf="@id/guideline_divider"/>
+
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guidelineMS1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_percent="0.65" />
+                    app:layout_constraintGuide_percent="0.7" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guidelineMS2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintGuide_percent="0.75" />
-
+                    app:layout_constraintGuide_percent="0.8" />
 
                 <ImageButton
                     android:id="@+id/ic_show_qr"
@@ -327,7 +340,7 @@
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintEnd_toEndOf="@id/guidelineQR2"
                     app:layout_constraintStart_toStartOf="@id/guidelineQR1"
-                    tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck" />
+                    tools:ignore="ImageContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
                 <TextView
                     android:id="@+id/tv_qr"
@@ -355,7 +368,7 @@
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintEnd_toEndOf="@id/guidelineMS2"
                     app:layout_constraintStart_toStartOf="@id/guidelineMS1"
-                    tools:ignore="ImageContrastCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+                    tools:ignore="ImageContrastCheck,ImageContrastCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
                 <TextView
                     android:id="@+id/tv_message"
@@ -763,7 +776,8 @@
                     app:layout_constraintStart_toEndOf="@id/ic_social_2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:src="@drawable/telegram"
-                    android:contentDescription="@string/link_social" />
+                    android:contentDescription="@string/link_social"
+                    tools:ignore="TooManyViews" />
 
                 <ImageView
                     android:id="@+id/ic_social_4"
@@ -778,7 +792,8 @@
                     app:layout_constraintStart_toEndOf="@id/ic_social_3"
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:src="@drawable/discord"
-                    android:contentDescription="@string/link_social" />
+                    android:contentDescription="@string/link_social"
+                    tools:ignore="TooManyViews" />
 
                 <ImageView
                     android:id="@+id/ic_social_5"
