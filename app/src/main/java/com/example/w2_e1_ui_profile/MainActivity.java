@@ -23,40 +23,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        gridView_top_tokens = findViewById(R.id.gv_top_tokens);
-        gridView_top_networks = findViewById(R.id.gv_top_networks);
 
         transparentStatus();
-
-        int[] images_list_top_tokens = {
-                R.drawable.ada,
-                0,
-                R.drawable.adt,
-                0,
-                R.drawable.adx,
-                0,
-                R.drawable.aeon,
-                0,
-                R.drawable.agrs,
-                0
-        };
-        ImageAdapter imageAdapter_top_tokens = new ImageAdapter(images_list_top_tokens, this);
-        gridView_top_tokens.setAdapter(imageAdapter_top_tokens);
-
-        int[] images_list_top_networks = {
-                R.drawable.bsd,
-                0,
-                R.drawable.btc,
-                0,
-                R.drawable.btcp,
-                0,
-                R.drawable.btg,
-                0,
-                R.drawable.bts,
-                0
-        };
-        ImageAdapter imageAdapter_top_networks = new ImageAdapter(images_list_top_networks, this);
-        gridView_top_networks.setAdapter(imageAdapter_top_networks);
     }
 
     private void transparentStatus() {
