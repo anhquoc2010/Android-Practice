@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">W2-E1-UI-Profile</string>
+    <string name="background">Background</string>
+    <string name="back">Back</string>
+    <string name="avatar">Avatar</string>
+
+    <string name="crypto_type">Crypto Type</string>
+    <string name="my_name">Lê Anh Quốc</string>
+    <string name="mail">2050531200262@sv.ute.udn.vn</string>
+    <string name="notice">🥇🥉 Failure is not the opposite of success, it\'s part of success. 😎😎</string>
+    <string name="total_assets">Total assets</string>
+    <string name="money">$200K</string>
+    <string name="top_tokens">Top tokens</string>
+    <string name="txt_to_btc">~ 4.54387 BTC</string>
+    <string name="top_networks">Top networks</string>
+    <string name="show_qr">Show QR</string>
+    <string name="let_s_message">Let\'s Message</string>
+    <string name="bio">Bio:</string>
+    <string name="tv_bio">👌👌 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc sit amet aliquam luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl sit amet nisl. Sed euismod, nunc sit amet aliquam luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl sit amet nisl. 💀👻👀</string>
+    <string name="nft_gallery">NFT gallery:</string>
+    <string name="links">Links:</string>
+    <string name="cv1">cv1</string>
+    <string name="link_social">link social</string>
+</resources>
