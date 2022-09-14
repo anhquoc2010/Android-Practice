@@ -21,4 +21,13 @@
     <string name="links">Links:</string>
     <string name="cv1">cv1</string>
     <string name="link_social">link social</string>
+    <string name="login">Đăng nhập</string>
+    <string name="username">Tên tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="forget">Quên mật khẩu?</string>
+    <string name="is_has_account">Bạn chưa có tài khoản?</string>
+    <string name="signup">Đăng ký</string>
+    <string name="is_has_account_yet">Bạn đã có tài khoản?</string>
+    <string name="ch_nh_s_ch_v_i_u_kho_n">chính sách và điều khoản</string>
+    <string name="okko">Đồng ý với</string>
 </resources>

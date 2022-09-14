@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-hdpi/round_arrow_back_36.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3465" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-xhdpi/rounded_rect.xml" value="0.3465" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-xhdpi/rounded_rectangle.xml" value="0.3465" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-xxhdpi/rounded_rect.xml" value="0.3465" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable-xxhdpi/rouned_rect.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/ada.xml" value="0.3255" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/adt.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/adx.xml" value="0.3465" />
@@ -24,10 +28,15 @@
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/ic_hexagon.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/line.xml" value="0.3455" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/rect_blue_bt.xml" value="0.3455" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/rect_cursed.xml" value="0.3455" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/round_arrow_back_20.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/round_arrow_back_24.xml" value="0.3465" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/drawable/rounded_rectangle.xml" value="0.3455" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/layout-v28/activity_login.xml" value="0.34375" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/layout/activity_login.xml" value="0.34479166666666666" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/layout/activity_signup.xml" value="0.22" />
         <entry key="..\:/UTE/Study/Ki1Nam3/LapTrinhDiDong/LyThuyet/Android-W2-E1-UI-Profile/app/src/main/res/layout/custom_image_layout.xml" value="0.34479166666666666" />
       </map>
     </option>
