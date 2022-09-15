@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "W2-E1-UI-Profile"
+rootProject.name = "W4-E1-Login-Signup"
 include ':app'

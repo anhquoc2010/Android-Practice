@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.w2_e1_ui_profile">
+    package="com.example.w4_e1_login_signup">
 
     <application
         android:allowBackup="true"
@@ -11,20 +11,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.W2E1UIProfile"
+        android:theme="@style/Theme.W4E1LoginSignup"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
         <activity
-            android:name="com.example.w2_e1_ui_profile.ProfileActivity"
+            android:name="com.example.w4_e1_login_signup.ProfileActivity"
             android:exported="false" />
 
         <activity
-            android:name="com.example.w2_e1_ui_profile.SignupActivity"
+            android:name="com.example.w4_e1_login_signup.SignupActivity"
             android:exported="false" />
 
         <activity
-            android:name="com.example.w2_e1_ui_profile.LoginActivity"
+            android:name="com.example.w4_e1_login_signup.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

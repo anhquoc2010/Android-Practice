@@ -100,7 +100,7 @@
                 app:layout_constraintStart_toStartOf="@id/iv_background"
                 app:layout_constraintTop_toTopOf="@id/iv_background" />
 
-            <com.example.w2_e1_ui_profile.custom.HexagonMaskView
+            <com.example.w4_e1_login_signup.custom.HexagonMaskView
                 android:id="@+id/iv_avatar"
                 android:layout_width="0dp"
                 android:layout_height="0dp"

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.W2E1UIProfile" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Theme.W4E1LoginSignup" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_black</item>
         <item name="colorPrimaryVariant">@color/white</item>

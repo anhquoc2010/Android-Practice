@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.w2_e1_ui_profile"
+        applicationId "com.example.w4_e1_login_signup"
         minSdk 21
         targetSdk 32
         versionCode 1

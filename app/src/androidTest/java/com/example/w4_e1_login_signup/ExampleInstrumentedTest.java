@@ -1,4 +1,4 @@
-package com.example.w2_e1_ui_profile;
+package com.example.w4_e1_login_signup;
 
 import android.content.Context;
 
