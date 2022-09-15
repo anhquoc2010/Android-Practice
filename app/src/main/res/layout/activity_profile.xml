@@ -6,12 +6,25 @@
     android:layout_height="match_parent"
     android:background="@color/light_white"
     android:scrollbars="none"
-    tools:context=".MainActivity">
+    tools:context=".ProfileActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="30dp">
+
+        <ProgressBar
+            android:id="@+id/progressBarProfile"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_cursed"
+            android:indeterminateTint="@color/blue"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cl_image_info"
@@ -87,7 +100,7 @@
                 app:layout_constraintStart_toStartOf="@id/iv_background"
                 app:layout_constraintTop_toTopOf="@id/iv_background" />
 
-            <com.example.w2_e1_ui_profile.HexagonMaskView
+            <com.example.w2_e1_ui_profile.custom.HexagonMaskView
                 android:id="@+id/iv_avatar"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -142,6 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="@string/mail"
+                android:textAlignment="center"
                 android:textColor="@color/dark_gray"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -166,8 +180,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_notice">
-            </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@id/tv_notice"></androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/cl_nft_list"
@@ -218,7 +231,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginVertical="20dp"
                     android:background="#E3E3E3"
-                    app:layout_constraintStart_toStartOf="@id/guideline_divider"/>
+                    app:layout_constraintStart_toStartOf="@id/guideline_divider" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guidelineMS1"
@@ -635,10 +648,10 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginTop="15dp"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintDimensionRatio="1:0.1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_links_ttl"
-                app:layout_constraintDimensionRatio="1:0.1">
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_links_ttl">
 
                 <ImageView
                     android:id="@+id/ic_social_1"
@@ -659,63 +672,63 @@
                     android:id="@+id/ic_social_2"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:scaleType="centerCrop"
-                    android:padding="10dp"
                     android:layout_marginStart="20dp"
                     android:background="@drawable/circle"
-                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/link_social"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/facebook"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintStart_toEndOf="@id/ic_social_1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:src="@drawable/facebook"
-                    android:contentDescription="@string/link_social" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/ic_social_3"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:scaleType="centerCrop"
-                    android:padding="10dp"
                     android:layout_marginStart="20dp"
                     android:background="@drawable/circle"
-                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/link_social"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/telegram"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintStart_toEndOf="@id/ic_social_2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:src="@drawable/telegram"
-                    android:contentDescription="@string/link_social"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="TooManyViews" />
 
                 <ImageView
                     android:id="@+id/ic_social_4"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:scaleType="centerCrop"
-                    android:padding="10dp"
                     android:layout_marginStart="20dp"
                     android:background="@drawable/circle"
-                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/link_social"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/discord"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintStart_toEndOf="@id/ic_social_3"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:src="@drawable/discord"
-                    android:contentDescription="@string/link_social"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="TooManyViews" />
 
                 <ImageView
                     android:id="@+id/ic_social_5"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:scaleType="centerCrop"
-                    android:padding="10dp"
                     android:layout_marginStart="20dp"
                     android:background="@drawable/circle"
-                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/link_social"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/github"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintDimensionRatio="1:1"
                     app:layout_constraintStart_toEndOf="@id/ic_social_4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    android:src="@drawable/github"
-                    android:contentDescription="@string/link_social"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="TooManyViews" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

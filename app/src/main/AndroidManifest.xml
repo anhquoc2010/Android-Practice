@@ -12,15 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.W2E1UIProfile"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
         <activity
-            android:name=".SignupActivity"
+            android:name="com.example.w2_e1_ui_profile.ProfileActivity"
             android:exported="false" />
+
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.w2_e1_ui_profile.SignupActivity"
             android:exported="false" />
+
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.w2_e1_ui_profile.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,5 +33,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

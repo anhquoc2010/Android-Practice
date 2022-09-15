@@ -1,4 +1,4 @@
-package com.example.w2_e1_ui_profile;
+package com.example.w2_e1_ui_profile.custom;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -9,6 +9,8 @@ import android.graphics.Path;
 import android.graphics.PorterDuff;
 import android.graphics.Region;
 import android.util.AttributeSet;
+
+import com.example.w2_e1_ui_profile.R;
 
 public class HexagonMaskView extends androidx.appcompat.widget.AppCompatImageView {
     private Path hexagonPath;
