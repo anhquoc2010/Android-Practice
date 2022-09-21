@@ -32,4 +32,5 @@
     <string name="okko">Đồng ý với</string>
     <string name="confirm_pass">Nhập lại mật khẩu</string>
     <string name="register_date">You are a registered user since:\n %1$s</string>
+    <string name="name">Họ và tên</string>
 </resources>

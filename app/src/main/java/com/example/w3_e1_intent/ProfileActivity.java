@@ -11,10 +11,13 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.w3_e1_intent.custom.SinhVien;
+
 public class ProfileActivity extends AppCompatActivity {
 
     private ImageButton imageButtonBack;
     private TextView textViewEmail;
+    private TextView textViewHoTen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +27,10 @@ public class ProfileActivity extends AppCompatActivity {
         transparentStatus();
         findViews();
 
-        String email = getIntent().getStringExtra("email_dn");
-        if (email != null) {
-            textViewEmail.setText(email);
+        SinhVien sinhVien = (SinhVien) getIntent().getSerializableExtra("sinhVienNe");
+        if (sinhVien != null) {
+            textViewHoTen.setText(sinhVien.getHoTen().toString());
+            textViewEmail.setText(sinhVien.getEmail().toString());
         }
 
         imageButtonBack.setOnClickListener(v -> {
@@ -37,6 +41,7 @@ public class ProfileActivity extends AppCompatActivity {
     private void findViews() {
         imageButtonBack = findViewById(R.id.ib_back);
         textViewEmail = findViewById(R.id.tv_email);
+        textViewHoTen = findViewById(R.id.tv_name);
     }
 
     private void transparentStatus() {

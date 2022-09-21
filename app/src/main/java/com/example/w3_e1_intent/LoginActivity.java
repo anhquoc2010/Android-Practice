@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.example.w3_e1_intent.custom.SinhVien;
+
 public class LoginActivity extends AppCompatActivity {
 
     private Button buttonLogin;
@@ -27,11 +29,11 @@ public class LoginActivity extends AppCompatActivity {
         findViews();
         progressBar.setVisibility(ProgressBar.GONE);
 
-        Bundle extras_dk = getIntent().getBundleExtra("bundle_dk");
+        SinhVien sinhVien = (SinhVien) getIntent().getSerializableExtra("sinhvien");
 
-        if (extras_dk != null) {
-            String email = extras_dk.getString("email_dk");
-            String password = extras_dk.getString("password_dk");
+        if (sinhVien != null) {
+            String email = sinhVien.getEmail().toString();
+            String password = sinhVien.getPassword().toString();
             editTextEmail.setText(email);
             editTextPassword.setText(password);
         }
@@ -53,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
             } else {
                 progressBar.setVisibility(android.view.View.VISIBLE);
                 Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
-                intent.putExtra("email_dn", textEmail);
+                intent.putExtra("sinhVienNe", sinhVien);
                 startActivity(intent);
             }
         });

@@ -15,15 +15,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.w3_e1_intent.custom.SinhVien;
+
 public class SignupActivity extends AppCompatActivity {
 
     private Button buttonSignup;
     private CheckBox checkBoxAgree;
     private EditText editTextEmail;
+    private EditText editTextHoTen;
     private EditText editTextPassword;
     private EditText editTextConfirmPassword;
     private ProgressBar progressBar;
     private TextView textViewLoginLink;
+    private SinhVien sinhVien;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ public class SignupActivity extends AppCompatActivity {
 
         buttonSignup.setOnClickListener(v -> {
             String textEmail = editTextEmail.getText().toString();
+            String textHoTen = editTextHoTen.getText().toString();
             String textPassword = editTextPassword.getText().toString();
             String textConfirmPassword = editTextConfirmPassword.getText().toString();
 
@@ -62,10 +67,8 @@ public class SignupActivity extends AppCompatActivity {
             } else {
                 progressBar.setVisibility(ProgressBar.VISIBLE);
                 Intent intent = new Intent(this, LoginActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("email_dk", textEmail);
-                bundle.putString("password_dk", textPassword);
-                intent.putExtra("bundle_dk", bundle);
+                sinhVien = new SinhVien(textHoTen, textEmail, textPassword);
+                intent.putExtra("sinhvien", sinhVien);
                 startActivity(intent);
             }
         });
@@ -79,6 +82,7 @@ public class SignupActivity extends AppCompatActivity {
         buttonSignup = findViewById(R.id.button_signup);
         checkBoxAgree = findViewById(R.id.checkBoxAgree);
         editTextEmail = findViewById(R.id.editTextTextPersonName_signup);
+        editTextHoTen = findViewById(R.id.editTextName_signup);
         editTextPassword = findViewById(R.id.editTextPass_signup);
         editTextConfirmPassword = findViewById(R.id.editTextConfirmPass);
         progressBar = findViewById(R.id.progressBarSignup);
