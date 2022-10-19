@@ -1,0 +1,379 @@
+10-17 01:01:54.504 11812 11833 I TestRunner: started: vertical_scroll_content_at_first_position(com.example.dogglers.VerticalListTests)
+10-17 01:01:54.514 11812 11833 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-17 01:01:54.523  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:54.524  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:54.524  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:54.525  2073  2213 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+10-17 01:01:54.526  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:54.528  1008  3824 E ANDR-IOP: io prefetch is disabled
+10-17 01:01:54.534  2073  2213 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:54.534  2073  2213 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:54.534  2073  2213 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:54.538  2073  2213 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+10-17 01:01:54.543   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:54.550  2923  2963 D TaskStackChangeListeners: onTaskDisplayChanged =  taskId = 3543 newDisplayId = 0
+10-17 01:01:54.555  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.556  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.560  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: PreKill MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.560  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:54.566  2073  2144 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:54.566  2073  2144 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:54.566  2073  2144 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:54.573  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10319, uidState = 2
+10-17 01:01:54.573  2923 31272 D AppObserver: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10319, mForegroundPid=11812, mLastForegroundPackageName='com.android.settings', mLastForegroundUid=1000, mLastForegroundPid=2535, mMultiWindowForegroundPackageName='com.example.dogglers', mMultiWindowForegroundUid=10319, mFlags=0}
+10-17 01:01:54.573  6468  8042 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10319, mForegroundPid=11812, mLastForegroundPackageName='com.android.settings', mLastForegroundUid=1000, mLastForegroundPid=2535, mMultiWindowForegroundPackageName='com.example.dogglers', mMultiWindowForegroundUid=10319, mFlags=0}
+10-17 01:01:54.574  7458 11336 I GST     : forePkg: com.example.dogglers, preForePkg: com.android.settings
+10-17 01:01:54.574  4690 21158 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10319, mForegroundPid=11812, mLastForegroundPackageName='com.android.settings', mLastForegroundUid=1000, mLastForegroundPid=2535, mMultiWindowForegroundPackageName='com.example.dogglers', mMultiWindowForegroundUid=10319, mFlags=0}
+10-17 01:01:54.574 19847 19859 D AutoInstallService: onForegroundInfoChanged: com.example.dogglers
+10-17 01:01:54.574  4690 21158 I GameBoosterService: onForegroundInfoChanged: Cur=com.example.dogglers	 last=com.android.settings
+10-17 01:01:54.574  6468  7499 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.example.dogglers, uid = 10319, mCurrentForegroundUid = 1000
+10-17 01:01:54.574  6468  7499 D LS-ForegroundStatusManager: onForegroundChanged mCurrentForegroundUid = 1000, new uid = 10319
+10-17 01:01:54.574  6468  7665 I ThermalInfoCollector: collectForgroundAppsInfo: com.android.settings
+10-17 01:01:54.574  6468  7499 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.example.dogglers, uid = 10319, mCurrentForegroundUid = 10319
+10-17 01:01:54.575  6468  7611 D ThermalIECHandler: IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+10-17 01:01:54.575  6468  7665 I ThermalInfoCollector: collectForgroundAppsInfo: com.android.settings
+10-17 01:01:54.577  4690 21158 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.example.dogglers', mForegroundUid=10319, mForegroundPid=11812, mLastForegroundPackageName='com.android.settings', mLastForegroundUid=1000, mLastForegroundPid=2535, mMultiWindowForegroundPackageName='com.example.dogglers', mMultiWindowForegroundUid=10319, mFlags=0}
+10-17 01:01:54.577  4690 21158 I GameBoosterService: onForegroundInfoChanged: Exit
+10-17 01:01:54.577  4690 21158 I VideoBoxUtils: isSupportVideoBox: false
+10-17 01:01:54.577  4690 21158 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+10-17 01:01:54.593  2535  2535 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+10-17 01:01:54.595 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: PRE_ON_CREATE
+10-17 01:01:54.596 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:54.599 11812 11874 D AppScoutStateMachine: 11812-ScoutStateMachinecreated
+10-17 01:01:54.606  6468  7611 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 267976529
+10-17 01:01:54.606  6468  7611 D ThermalIECHandler: IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+10-17 01:01:54.620 11812 11812 D IS_CTS_MODE: false
+10-17 01:01:54.620 11812 11812 D MULTI_WINDOW_SWITCH_ENABLED: false
+10-17 01:01:54.622  6468  7611 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 267976529
+10-17 01:01:54.622  6468  7611 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 267976529
+10-17 01:01:54.622  6468  7611 D ThermalIECHandler: storeDataStyle: thermal_iec_monitor_persistence_data_style_iec_state; startIECTime: -1; IECScreenOffOverPeriodTime: 267976529
+10-17 01:01:54.624  2923  2923 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+10-17 01:01:54.624  2923  2923 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-17 01:01:54.624 11812 11812 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+10-17 01:01:54.629 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: CREATED
+10-17 01:01:54.630 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:54.631 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: STARTED
+10-17 01:01:54.632 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:54.640  2073  2145 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:54.640  2073  2145 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:54.640  2073  2145 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:54.644  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.644  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.644  2073  2145 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+10-17 01:01:54.649 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: RESUMED
+10-17 01:01:54.649  1010  3810 E ANDR-PERF-LM: DependentServices: getServices() 97: Service Tracker HAL could not find Client Connections
+10-17 01:01:54.649 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:54.651  2923  2923 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+10-17 01:01:54.652 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: PAUSED
+10-17 01:01:54.652  2923  2923 W RecentsImpl: onResumed className=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+10-17 01:01:54.652  2923  2923 D RecentsImpl: showNavStubView
+10-17 01:01:54.652  2923  2923 D NavStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.652  2923  3065 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+10-17 01:01:54.652  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:54.652  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:54.652  2923  3065 W RecentsImpl: disableBackStubWindow    disableTouch=false
+10-17 01:01:54.652  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.652  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.652  2923  3065 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+10-17 01:01:54.652 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:54.652  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.652  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:54.652  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:54.653  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.653  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:54.653  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.653  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:54.653  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:54.653  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.653  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:54.654  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.654  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:54.655  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:54.658  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:54.658  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:54.662  2073  5209 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:54.662  2073  5209 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:54.662  2073  5209 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:54.671  2073  2379 D ProcessManager: skip notify foregroundAppInfo:ApplicationInfo{d87e6d0 com.example.dogglers}
+10-17 01:01:54.679 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: PRE_ON_CREATE
+10-17 01:01:54.680 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-17 01:01:54.688 11812 11812 D IS_CTS_MODE: false
+10-17 01:01:54.688 11812 11812 D MULTI_WINDOW_SWITCH_ENABLED: false
+10-17 01:01:54.689 11812 11812 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+10-17 01:01:54.698  2873  9390 I SarService: Receiver polling >>>> Change receiver mode: off
+10-17 01:01:54.707 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: CREATED
+10-17 01:01:54.709 11812 11812 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@9d13a92
+10-17 01:01:54.712 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: STARTED
+10-17 01:01:54.712 11812 11812 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@9d13a92
+10-17 01:01:54.715 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: RESUMED
+10-17 01:01:54.715 11812 11812 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@9d13a92
+10-17 01:01:54.721   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:54.724  2923  2923 D RecentsImpl: mActivityStateObserver com.example.dogglers.VerticalListActivity
+10-17 01:01:54.726  2923  2923 W RecentsImpl: onResumed className=com.example.dogglers.VerticalListActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+10-17 01:01:54.726  2923  2923 D RecentsImpl: showNavStubView
+10-17 01:01:54.726  2923  2923 D NavStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.727  2923  3065 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+10-17 01:01:54.727  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:54.727  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:54.727  2923  3065 W RecentsImpl: disableBackStubWindow    disableTouch=false
+10-17 01:01:54.727  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.727  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.727  2923  3065 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+10-17 01:01:54.728  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.728  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:54.728  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:54.728  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.728  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:54.728  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:54.728  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:54.728  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:54.728  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:54.728  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:54.741  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:54.742  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:54.766  2923 31272 D RecentsModel: onTaskStackChangedBackground
+10-17 01:01:54.767  2923  3294 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-17 01:01:54.767  2923  3294 D RecentsModel: preloadRecents
+10-17 01:01:54.767  2923  3294 W RecentsModel: getRunningTask
+10-17 01:01:54.767  6468 10471 I MultiScreenObserver: onTaskStackChanged, splitScreenMode: false isCameraFloat: false isSmallScreen: false
+10-17 01:01:54.769  2923  3294 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=3543 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity } baseActivity=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} topActivity=ComponentInfo{com.example.dogglers/com.example.dogglers.VerticalListActivity} origActivity=null realActivity=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} numActivities=2 lastActiveTime=268309420 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true token=WCT{android.window.IWindowContainerToken$Stub$Proxy@70e673d} topActivityType=1 pictureInPictureParams=PictureInPictureParams( aspectRatio=null sourceRectHint=null hasSetActions=false isAutoPipEnabled=false isSeamlessResizeEnabled=true) displayCutoutSafeInsets=Rect(0, 102 - 0, 0) topActivityInfo=ActivityInfo{ac4bb32 com.example.dogglers.VerticalListActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true topActivityInSizeCompat=false locusId= null windowMode=0}
+10-17 01:01:54.769  2923  3294 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity}
+10-17 01:01:54.769  2923  3294 E ActivityManagerWrapper: get all recent tasks force including 3543
+10-17 01:01:54.770   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: size=5
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3543   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268468224 cmp=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} }
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3461   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3497   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer} }
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3491   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity} }
+10-17 01:01:54.771  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3460   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity} }
+10-17 01:01:54.845  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:54.851  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:54.851  2073  2146 I ActivityTaskManager: Displayed com.example.dogglers/.VerticalListActivity: +320ms
+10-17 01:01:54.853  2073  5209 W InputManager-JNI: Input channel object 'af24a34 Splash Screen com.example.dogglers (client)' was disposed without first being removed with the input manager!
+10-17 01:01:54.853 11812 11812 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+10-17 01:01:54.863 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+10-17 01:01:54.869  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3280
+10-17 01:01:54.870  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 0, unlocked = true
+10-17 01:01:54.870  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1960 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+10-17 01:01:54.870  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4081 ShouldHideHeaderOnInitialState = false
+10-17 01:01:54.871  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 2, unlocked = true
+10-17 01:01:54.898 11812 11812 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Tzeitel"
+10-17 01:01:54.899  2873  9390 I SarService: Receiver polling >>>> Change receiver mode: off
+10-17 01:01:54.900 11812 11812 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Age: 7"
+10-17 01:01:54.901   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:54.903 11812 11812 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Hobbies: sunbathing"
+10-17 01:01:54.933  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10154, uidState = 3
+10-17 01:01:54.933  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10090, uidState = 15
+10-17 01:01:54.962  8983  9000 I MemoryOptimizationService: start handleMemoryIntent ->
+10-17 01:01:54.962  8983  9000 I MemoryOptimizationService: optimized Pkg Name -> com.android.settings
+10-17 01:01:54.962  8983  9000 I MemoryOptimizationService: Optimized pacakge map contains key.
+10-17 01:01:54.962  8983  9000 I MemoryOptimizationService: Old data is removed [Handler (com.android.settings.services.MemoryOptimizationService$MemoryHandler) {ae19064}] -> com.android.settings
+10-17 01:01:54.963  8983  9000 I MemoryOptimizationService: Send message delayed -> com.android.settings , 30000
+10-17 01:01:54.967  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10090, uidState = 10
+10-17 01:01:54.969  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10090, uidState = 15
+10-17 01:01:54.970   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:55.037 11812 11812 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view has drawable resource 2131165345
+10-17 01:01:55.038 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: STOPPED
+10-17 01:01:55.039 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:55.050  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.051  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.051  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.051  2073  2145 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+10-17 01:01:55.051  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.054  1008  3824 E ANDR-IOP: io prefetch is disabled
+10-17 01:01:55.056  2073  2145 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:55.056  2073  2145 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:55.056  2073  2145 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:55.058  2073  2145 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+10-17 01:01:55.058  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.059  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.067 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: PAUSED
+10-17 01:01:55.067 11812 11812 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@9d13a92
+10-17 01:01:55.069  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.069  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.070  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.074  2073  3092 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:55.074  2073  3092 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:55.074  2073  3092 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:55.080   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:55.084  2073  2379 D ProcessManager: skip notify foregroundAppInfo:ApplicationInfo{25343ad com.example.dogglers}
+10-17 01:01:55.089 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: PRE_ON_CREATE
+10-17 01:01:55.090 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.096 11812 11812 D IS_CTS_MODE: false
+10-17 01:01:55.096 11812 11812 D MULTI_WINDOW_SWITCH_ENABLED: false
+10-17 01:01:55.098 11812 11812 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+10-17 01:01:55.099  2873  9390 I SarService: Receiver polling >>>> Change receiver mode: off
+10-17 01:01:55.101 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: CREATED
+10-17 01:01:55.102 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.103 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: STARTED
+10-17 01:01:55.103 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.106 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: RESUMED
+10-17 01:01:55.107 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.117  2923  2923 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+10-17 01:01:55.117  2923  2923 W RecentsImpl: onResumed className=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+10-17 01:01:55.117  2923  2923 D RecentsImpl: showNavStubView
+10-17 01:01:55.117  2923  3065 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+10-17 01:01:55.117  2923  2923 D NavStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.117  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:55.117  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:55.117  2923  3065 W RecentsImpl: disableBackStubWindow    disableTouch=false
+10-17 01:01:55.117  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.117  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.118  2923  3065 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+10-17 01:01:55.118  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.118  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:55.118  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:55.118  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.118  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:55.118  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.118  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:55.118  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:55.118  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.118  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:55.126  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:55.126  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:55.152 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+10-17 01:01:55.155  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.157  2073  2146 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +108ms
+10-17 01:01:55.159  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.180  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.180  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.180  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.180  2073  2145 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+10-17 01:01:55.181 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: STOPPED
+10-17 01:01:55.181  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.182 11812 11812 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@9d13a92
+10-17 01:01:55.183  1008  3824 E ANDR-IOP: io prefetch is disabled
+10-17 01:01:55.184 11812 11812 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@9d13a92 in: DESTROYED
+10-17 01:01:55.185 11812 11812 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+10-17 01:01:55.186  2073  2145 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:55.187  2073  2145 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:55.187  2073  2145 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:55.189  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.189  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.189  2073  2145 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+10-17 01:01:55.195  2073  3092 W InputManager-JNI: Input channel object '92b18ef com.example.dogglers/com.example.dogglers.VerticalListActivity (client)' was disposed without first being removed with the input manager!
+10-17 01:01:55.195  2923 31272 D RecentsModel: onTaskStackChangedBackground
+10-17 01:01:55.195  2923  3294 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-17 01:01:55.195  2923  3294 D RecentsModel: preloadRecents
+10-17 01:01:55.195  2923  3294 W RecentsModel: getRunningTask
+10-17 01:01:55.200  6468 10471 I MultiScreenObserver: onTaskStackChanged, splitScreenMode: false isCameraFloat: false isSmallScreen: false
+10-17 01:01:55.202  2923  3294 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=3543 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity } baseActivity=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} topActivity=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} origActivity=null realActivity=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} numActivities=3 lastActiveTime=268309853 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true token=WCT{android.window.IWindowContainerToken$Stub$Proxy@1792083} topActivityType=1 pictureInPictureParams=PictureInPictureParams( aspectRatio=null sourceRectHint=null hasSetActions=false isAutoPipEnabled=false isSeamlessResizeEnabled=true) displayCutoutSafeInsets=Rect(0, 102 - 0, 0) topActivityInfo=ActivityInfo{ccf200 androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true topActivityInSizeCompat=false locusId= null windowMode=0}
+10-17 01:01:55.202  2923  3294 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity}
+10-17 01:01:55.202  2923  3294 E ActivityManagerWrapper: get all recent tasks force including 3543
+10-17 01:01:55.208 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: size=5
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3543   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268468224 cmp=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} }
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3461   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3497   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer} }
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3491   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity} }
+10-17 01:01:55.211  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3460   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity} }
+10-17 01:01:55.214  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3280
+10-17 01:01:55.216  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 0, unlocked = true
+10-17 01:01:55.216  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1960 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+10-17 01:01:55.216  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4081 ShouldHideHeaderOnInitialState = false
+10-17 01:01:55.217  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 2, unlocked = true
+10-17 01:01:55.224 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: PAUSED
+10-17 01:01:55.225 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.227  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.227  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.228  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: PreKill MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.228  1010  1057 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+10-17 01:01:55.232  2073  2145 D CompatibilityInfo: mCompatibilityFlags - 4
+10-17 01:01:55.232  2073  2145 D CompatibilityInfo: applicationDensity - 303
+10-17 01:01:55.232  2073  2145 D CompatibilityInfo: applicationScale - 1.0
+10-17 01:01:55.239 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30 in: DESTROYED
+10-17 01:01:55.240  2073  2379 D ProcessManager: skip notify foregroundAppInfo:ApplicationInfo{f4bdd78 com.example.dogglers}
+10-17 01:01:55.240 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@a145b30
+10-17 01:01:55.250 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae in: PRE_ON_CREATE
+10-17 01:01:55.251 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae
+10-17 01:01:55.255 11812 11812 D IS_CTS_MODE: false
+10-17 01:01:55.255 11812 11812 D MULTI_WINDOW_SWITCH_ENABLED: false
+10-17 01:01:55.256 11812 11812 D DecorView[]: getWindowModeFromSystem  windowmode is 1
+10-17 01:01:55.260 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae in: CREATED
+10-17 01:01:55.260 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae
+10-17 01:01:55.261   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:55.262 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae in: STARTED
+10-17 01:01:55.262 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae
+10-17 01:01:55.264   982  2315 E libnav  : AbaGetState return state 3 for feature 4
+10-17 01:01:55.265 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae in: RESUMED
+10-17 01:01:55.266 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae
+10-17 01:01:55.275  2923  2923 D RecentsImpl: mActivityStateObserver androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+10-17 01:01:55.275  2923  2923 W RecentsImpl: onResumed className=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity   mIsInAnotherPro=false   isKeyguardLocked=false
+10-17 01:01:55.277  2923  2923 D RecentsImpl: showNavStubView
+10-17 01:01:55.277  2923  2923 D NavStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.277  2923  3065 W RecentsImpl: disableTouchBySwipeStatusBar    disable=false
+10-17 01:01:55.277  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:55.277  2923  3065 D GestureStubView_Touch: disableTouchBySwipeStatusBar    old=false   new=false
+10-17 01:01:55.277  2923  3065 W RecentsImpl: disableBackStubWindow    disableTouch=false
+10-17 01:01:55.277  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.277  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.277  2923  3065 D RecentsImpl: showBackStubWindow  hasNavigationBar=true
+10-17 01:01:55.278  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.278  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:55.278  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:55.278  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.278  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:55.278  2923  3065 D GestureStubView_Touch: setKeepHidden    old=false   new=false
+10-17 01:01:55.278  2923  3065 W GestureStubView: adaptRotation   currentRotation=0   mRotation=0
+10-17 01:01:55.278  2923  3065 D GestureStubView: resetRenderProperty: showGestureStub   isLayoutParamChanged=false
+10-17 01:01:55.278  2923  3065 D GestureStubView_Touch: disableTouch    old=false   new=false
+10-17 01:01:55.278  2923  3065 D GestureStubView: showGestureStub
+10-17 01:01:55.293  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:55.293  2923  3065 D GestureStubView: gatherTransparentRegion: need render w:54  h:1440
+10-17 01:01:55.298 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+10-17 01:01:55.299  2873  9390 I SarService: Receiver polling >>>> Change receiver mode: off
+10-17 01:01:55.302  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.304  2073  2146 I ActivityTaskManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +127ms
+10-17 01:01:55.306  1010  3811 E ANDR-PERF-LM: ThreadHelper: thread_callback() 145: More than one pending updates!!! This should not happen. MeterMgr should avoid this case.
+10-17 01:01:55.319 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: STOPPED
+10-17 01:01:55.320 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.331  2073  5216 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+10-17 01:01:55.335 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus true
+10-17 01:01:55.336  2923 31272 D RecentsModel: onTaskStackChangedBackground
+10-17 01:01:55.337  2923  3294 D RecentsModel: onTaskStackChangedBackground    MSG_TASK_STACK_CHANGE
+10-17 01:01:55.337  2923  3294 D RecentsModel: preloadRecents
+10-17 01:01:55.337  2923  3294 W RecentsModel: getRunningTask
+10-17 01:01:55.337  6468 10471 I MultiScreenObserver: onTaskStackChanged, splitScreenMode: false isCameraFloat: false isSmallScreen: false
+10-17 01:01:55.337  2923  2923 D EventBus: No subscribers registered for event class com.miui.home.recents.messages.TaskSnapshotChangedEvent
+10-17 01:01:55.337  2923  2923 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+10-17 01:01:55.338  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3280
+10-17 01:01:55.339  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 0, unlocked = true
+10-17 01:01:55.339  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1960 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+10-17 01:01:55.339  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4081 ShouldHideHeaderOnInitialState = false
+10-17 01:01:55.340  4592  4592 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2169 repeatCheckTimes = 2, unlocked = true
+10-17 01:01:55.340  2923  3294 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=3461 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.MainSettings } baseActivity=ComponentInfo{com.android.settings/com.android.settings.MainSettings} topActivity=ComponentInfo{com.android.settings/com.android.settings.SubSettings} origActivity=ComponentInfo{com.android.settings/com.android.settings.MainSettings} realActivity=ComponentInfo{com.android.settings/com.android.settings.MiuiSettings} numActivities=4 lastActiveTime=268309990 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true token=WCT{android.window.IWindowContainerToken$Stub$Proxy@4ff3a39} topActivityType=1 pictureInPictureParams=null displayCutoutSafeInsets=Rect(0, 102 - 0, 0) topActivityInfo=ActivityInfo{57f587e com.android.settings.SubSettings} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false topActivityInSizeCompat=false locusId= null windowMode=0}
+10-17 01:01:55.340  2923  3294 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.android.settings/com.android.settings.MainSettings}
+10-17 01:01:55.342  2923  3294 E ActivityManagerWrapper: get all recent tasks force including 3461
+10-17 01:01:55.347 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b in: DESTROYED
+10-17 01:01:55.348  2535  2554 D AppScoutStateMachine: 2535-ScoutStateMachinecreated
+10-17 01:01:55.348 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@75c9c7b
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: size=5
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3543   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=268468224 cmp=ComponentInfo{com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity} }
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3461   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.settings/com.android.settings.MainSettings} }
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3497   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer} }
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3491   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity} }
+10-17 01:01:55.348  2923  3294 E ActivityManagerWrapper: getRecentTasks: taskId=3460   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity} }
+10-17 01:01:55.349  2073  2331 I MiuiNetworkPolicy: updateUidState uid = 10154, uidState = 3
+10-17 01:01:55.349  2073  5209 W InputManager-JNI: Input channel object 'c7bacf com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+10-17 01:01:55.359 11812 11812 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae in: PAUSED
+10-17 01:01:55.361 11812 11812 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@e3432ae
+10-17 01:01:55.365  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.365  1010  1057 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+10-17 01:01:55.376  2923  2963 D AppObserver: ForegroundInfo{mForegroundPackageName='com.android.settings', mForegroundUid=1000, mForegroundPid=2535, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10319, mLastForegroundPid=11812, mMultiWindowForegroundPackageName='com.android.settings', mMultiWindowForegroundUid=1000, mFlags=0}
+10-17 01:01:55.376  7458 11336 I GST     : forePkg: com.android.settings, preForePkg: com.example.dogglers
+10-17 01:01:55.377  6468  8042 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.settings', mForegroundUid=1000, mForegroundPid=2535, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10319, mLastForegroundPid=11812, mMultiWindowForegroundPackageName='com.android.settings', mMultiWindowForegroundUid=1000, mFlags=0}
+10-17 01:01:55.377 19847 19859 D AutoInstallService: onForegroundInfoChanged: com.android.settings
+10-17 01:01:55.377  4690 21647 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.settings', mForegroundUid=1000, mForegroundPid=2535, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10319, mLastForegroundPid=11812, mMultiWindowForegroundPackageName='com.android.settings', mMultiWindowForegroundUid=1000, mFlags=0}
+10-17 01:01:55.377  6468  7611 D ThermalIECHandler: IECAll48Allowed: false; IECMonitorAllowed: false; IECTestState: false
+10-17 01:01:55.378  6468  7665 I ThermalInfoCollector: collectForgroundAppsInfo: com.example.dogglers
+10-17 01:01:55.378  6468  7499 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.android.settings, uid = 1000, mCurrentForegroundUid = 10319
+10-17 01:01:55.378  4690 21647 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.settings	 last=com.example.dogglers
+10-17 01:01:55.378  6468  7499 D LS-ForegroundStatusManager: onForegroundChanged mCurrentForegroundUid = 10319, new uid = 1000
+10-17 01:01:55.378  6468  7499 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.android.settings, uid = 1000, mCurrentForegroundUid = 1000
+10-17 01:01:55.378 11812 11812 D DecorView[]: onWindowFocusChanged hasWindowFocus false
+10-17 01:01:55.378  4690 21647 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.settings', mForegroundUid=1000, mForegroundPid=2535, mLastForegroundPackageName='com.example.dogglers', mLastForegroundUid=10319, mLastForegroundPid=11812, mMultiWindowForegroundPackageName='com.android.settings', mMultiWindowForegroundUid=1000, mFlags=0}
+10-17 01:01:55.378  4690 21647 I GameBoosterService: onForegroundInfoChanged: Exit
+10-17 01:01:55.379  4690 21647 I VideoBoxUtils: isSupportVideoBox: false
+10-17 01:01:55.379  4690 21647 I VideoToolBoxService: onForegroundInfoChanged: Exit Vtb
+10-17 01:01:55.379 11812 11833 I TestRunner: finished: vertical_scroll_content_at_first_position(com.example.dogglers.VerticalListTests)

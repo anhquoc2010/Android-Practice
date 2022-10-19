@@ -1,0 +1,27 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+f
+6app/src/main/java/com/example/dogglers/const/Layout.kt,5\9\5952e2c9c0b14988777063e8a345f045dc0329b7
+i
+9app/src/androidTest/java/com/example/dogglers/BaseTest.kt,2\f\2fc010e3d62d32ce7c2cec8a15b1b0ade01f152a
+t
+Dapp/src/androidTest/java/com/example/dogglers/HorizontalListTests.kt,f\a\fac196a3b931578dd5e953e2c5f0113cd196fa21
+r
+Bapp/src/androidTest/java/com/example/dogglers/VerticalListTests.kt,8\3\83b941d5b874a8d41ed7a05a9792aa1cd458397f
+n
+>app/src/androidTest/java/com/example/dogglers/GridListTests.kt,7\e\7e36b8ec5352166faecdeb289872d4a3fbe31efa
+[
++app/src/main/res/layout/horizontal_list.xml,7\3\73c1e4f17976b8b85bd4eb863b33a69896e26263
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+b
+2app/src/main/res/layout/activity_vertical_list.xml,7\c\7c09ed22f654a6e6eee0483b84e6674f06a411b0
+p
+@app/src/main/java/com/example/dogglers/adapter/DogCardAdapter.kt,b\9\b9c0a557a7eae707f486e2c5b61bcc9849751d8d
+i
+9app/src/main/java/com/example/dogglers/data/DataSource.kt,d\9\d9c3413ade59ce743533bb0164b53c2599acc90e
+c
+3app/src/main/java/com/example/dogglers/model/Dog.kt,d\0\d0ef7130ecc73562d96a615260b130b20471cab8
+P
+ app/src/main/res/layout/item.xml,2\4\24207c6e5787d938f87222913959f9cb4affa227

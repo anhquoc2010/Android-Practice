@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/activity_vertical_list.xml",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_vertical_list.xml"
+    },
+    {
+        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/horizontal_list.xml",
+        "source": "com.example.dogglers.app-main-31:/layout/horizontal_list.xml"
+    },
+    {
+        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/item.xml",
+        "source": "com.example.dogglers.app-main-31:/layout/item.xml"
+    }
+]
