@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.View;
 
 import com.example.phonebook.adapter.ContactAdapter;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // Check if the READ_CONTACTS permission is granted
+        contacts = new ArrayList<>();
         getPhoneContactsPermission();
 
         contactAdapter = new ContactAdapter(this, contacts);
@@ -57,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 while (cursor.moveToNext()) {
                     String contactName = cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                     String contactNumber = cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.NUMBER));
-
-                    contacts = new ArrayList<>();
                     contacts.add(new Contact(contactName, contactNumber));
                 }
                 cursor.close();

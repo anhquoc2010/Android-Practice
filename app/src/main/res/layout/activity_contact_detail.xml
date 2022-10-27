@@ -6,21 +6,37 @@
     android:layout_height="match_parent"
     tools:context=".ContactDetailActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Surface"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:backgroundTint="?attr/colorOnPrimary"
+            app:title="Contacts"
+            app:titleCentered="true" />
+    </com.google.android.material.appbar.AppBarLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_rounded_rectangle"
-        android:padding="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_avatar"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:shape="ring"
+            android:layout_margin="20dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:cardElevation="10dp"
             app:cardCornerRadius="150dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/tv_name"
@@ -47,7 +63,7 @@
             android:gravity="center"
             android:text="@string/text"
             android:textColor="?attr/colorOnSurface"
-            android:textSize="50sp"
+            android:textSize="38sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -57,8 +73,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/bg_rounded_gray_rectangle"
             android:text="@string/text"
-            android:textSize="48sp"
-            android:paddingHorizontal="7dp"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:paddingHorizontal="10dp"
             app:layout_constraintStart_toEndOf="@id/iv_gender"
             app:layout_constraintTop_toBottomOf="@id/tv_name" />
     </LinearLayout>

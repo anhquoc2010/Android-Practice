@@ -32,6 +32,7 @@ public class ContactDetailActivity extends AppCompatActivity {
             Contact contact = (Contact) bundle.getSerializable("Contact");
             binding.tvName.setText(contact.getName());
             binding.tvNumber.setText(contact.getNumber());
+            binding.topAppBar.setTitle(contact.getName());
         }
     }
 }

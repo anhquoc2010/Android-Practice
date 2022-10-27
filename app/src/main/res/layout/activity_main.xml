@@ -28,10 +28,10 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_contacts"
         android:layout_width="match_parent"
+        android:paddingBottom="?attr/actionBarSize"
         android:layout_height="wrap_content"
         android:nestedScrollingEnabled="false"
         android:paddingHorizontal="20dp"
-        android:layout_marginBottom="70dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/appBarLayout"
