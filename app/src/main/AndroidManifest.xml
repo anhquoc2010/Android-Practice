@@ -36,6 +36,15 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".UpdateComputerActivity"
+            android:exported="false"
+            android:label="Update Computer"
+            android:theme="@style/Theme.AppCompat.Dialog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,10 +1,15 @@
 package com.example.sqlite;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.ContentValues;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -36,11 +41,40 @@ public class InsertComputerActivity extends AppCompatActivity {
     List<InforData> listCategory = null;
     InforData categoryData = null;
     MySimpleArrayAdapter adapter = null;
+    ActivityResultLauncher<Intent> startForResult;
+    public static final int SEND_DATA_FROM_COMPUTER_ACTIVITY = 3;
+    InforData dataClick = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_insert_computer);
+
+        startForResult = registerForActivityResult(
+                new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == SEND_DATA_FROM_COMPUTER_ACTIVITY) {
+                        Intent data = result.getData();
+                        Bundle bundle = data.getBundleExtra("DATA_COMPUTER");
+                        String f3 = bundle.getString("price");
+                        String f2 = bundle.getString("name");
+                        String f1 = dataClick.getField1().toString();
+                        ContentValues content = new ContentValues();
+                        content.put("name", f2);
+                        content.put("price", f3);
+                        if (database != null) {
+                            int n = database.update("tblComputer", content, "id=?", new String[]{f1});
+                            if (n > 0) {
+                                Toast.makeText(InsertComputerActivity.this, "update ok ok ok ", Toast.LENGTH_LONG).show();
+                                dataClick.setField2(f2);
+                                dataClick.setField3(f3);
+                                if (adapter != null)
+                                    adapter.notifyDataSetChanged();
+                            }
+                        }
+                    }
+                });
+
         Spinner pinner = (Spinner) findViewById(R.id.spinner1);
         listCategory = new ArrayList<InforData>();
         InforData d1 = new InforData();
@@ -69,6 +103,7 @@ public class InsertComputerActivity extends AppCompatActivity {
         adapter = new MySimpleArrayAdapter(InsertComputerActivity.this, R.layout.layout_show_list, listCategory);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         pinner.setAdapter(adapter);
+
         //Xử lý sự kiện chọn trong Spinner
         //chọn danh mục nào thì hiển thị toàn bộ máy tính của danh mục đó mà thôi
         //Nếu chọn All thì hiển thị toàn bộ không phân hiệt danh mục
@@ -142,6 +177,62 @@ public class InsertComputerActivity extends AppCompatActivity {
         adapter = new MySimpleArrayAdapter(InsertComputerActivity.this, R.layout.layout_show_list, listComputer);
         ListView lv = (ListView) findViewById(R.id.listViewComputer);
         lv.setAdapter(adapter);
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1,
+                                    int arg2, long arg3) {
+                // TODO Auto-generated method stub
+                Toast.makeText(InsertComputerActivity.this, "View -->" + listComputer.get(arg2).toString(), Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(InsertComputerActivity.this, UpdateComputerActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putInt("KEY", 1);
+                bundle.putString("getField1C", listComputer.get(arg2).getField1().toString());
+                bundle.putString("getField2C", listComputer.get(arg2).getField2().toString());
+                bundle.putString("getField3C", listComputer.get(arg2).getField3().toString());
+                intent.putExtra("DATAC", bundle);
+                dataClick = listComputer.get(arg2);
+                startForResult.launch(intent);
+            }
+        });
+        lv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> arg0, View arg1,
+                                           int arg2, long arg3) {
+                // TODO Auto-generated method stub
+                final InforData data = listComputer.get(arg2);
+                final int pos = arg2;
+                Toast.makeText(InsertComputerActivity.this, "Edit-->" + data.toString(), Toast.LENGTH_LONG).show();
+                AlertDialog.Builder b = new AlertDialog.Builder(InsertComputerActivity.this);
+                b.setTitle("Remove");
+                b.setMessage("Xóa [" + data.getField1() + " - " + data.getField2() + " - " + data.getField3() + "] hả?");
+                b.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // TODO Auto-generated method stub
+                        int n = database.delete("tblComputer", "id=?", new String[]{data.getField1().toString()});
+                        if (n > 0) {
+                            Toast.makeText(InsertComputerActivity.this, "Remove ok", Toast.LENGTH_LONG).show();
+                            listComputer.remove(pos);
+                            adapter.notifyDataSetChanged();
+                        } else {
+                            Toast.makeText(InsertComputerActivity.this, "Remove not ok", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+                b.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // TODO Auto-generated method stub
+                        dialog.cancel();
+                    }
+                });
+                b.show();
+                return false;
+            }
+        });
     }
 
     /**
