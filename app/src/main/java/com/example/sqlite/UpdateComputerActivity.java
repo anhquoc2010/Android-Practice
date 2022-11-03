@@ -26,7 +26,7 @@ public class UpdateComputerActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 Bundle bundle = new Bundle();
                 bundle.putString("name", txtName.getText().toString());
-                bundle.putString("price", txtPrice.getText().toString());
+                bundle.putInt("price", Integer.parseInt(txtPrice.getText().toString()));
                 intent.putExtra("DATA_COMPUTER", bundle);
                 setResult(InsertComputerActivity.SEND_DATA_FROM_COMPUTER_ACTIVITY, intent);
                 UpdateComputerActivity.this.finish();
@@ -46,7 +46,7 @@ public class UpdateComputerActivity extends AppCompatActivity {
 
         Bundle bundle = intent.getBundleExtra("DATAC");
         if (bundle != null && bundle.getInt("KEY") == 1) {
-            String f3 = bundle.getString("getField3C");
+            int f3 = bundle.getInt("getField3C");
             String f2 = bundle.getString("getField2C");
             txtName.setText(f2);
             txtPrice.setText(String.valueOf(f3));

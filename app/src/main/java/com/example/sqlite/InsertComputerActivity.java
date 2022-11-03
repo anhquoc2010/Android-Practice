@@ -56,7 +56,7 @@ public class InsertComputerActivity extends AppCompatActivity {
                     if (result.getResultCode() == SEND_DATA_FROM_COMPUTER_ACTIVITY) {
                         Intent data = result.getData();
                         Bundle bundle = data.getBundleExtra("DATA_COMPUTER");
-                        String f3 = bundle.getString("price");
+                        int f3 = bundle.getInt("price");
                         String f2 = bundle.getString("name");
                         String f1 = dataClick.getField1().toString();
                         ContentValues content = new ContentValues();
@@ -119,7 +119,7 @@ public class InsertComputerActivity extends AppCompatActivity {
                 } else {
                     //Hiển thị sách theo máy tính chọn trong Spinner
                     categoryData = listCategory.get(arg2);
-                    loadListComputerByCategory(categoryData.getField1().toString());
+                    loadListComputerByCategory(categoryData.getField2().toString());
                 }
             }
 
@@ -163,8 +163,13 @@ public class InsertComputerActivity extends AppCompatActivity {
      */
     public void loadAlllistComputer() {
         Cursor cur = database.query("tblComputer", null, null, null, null, null, null);
-        cur.moveToFirst();
         listComputer = new ArrayList<InforData>();
+        InforData header = new InforData();
+        header.setField1("Mã máy tính");
+        header.setField2("Tên máy tính");
+        header.setField3("Giá máy tính");
+        listComputer.add(header);
+        cur.moveToFirst();
         while (cur.isAfterLast() == false) {
             InforData d = new InforData();
             d.setField1(cur.getInt(0));
@@ -187,9 +192,8 @@ public class InsertComputerActivity extends AppCompatActivity {
                 Intent intent = new Intent(InsertComputerActivity.this, UpdateComputerActivity.class);
                 Bundle bundle = new Bundle();
                 bundle.putInt("KEY", 1);
-                bundle.putString("getField1C", listComputer.get(arg2).getField1().toString());
                 bundle.putString("getField2C", listComputer.get(arg2).getField2().toString());
-                bundle.putString("getField3C", listComputer.get(arg2).getField3().toString());
+                bundle.putInt("getField3C", Integer.parseInt(listComputer.get(arg2).getField3().toString()));
                 intent.putExtra("DATAC", bundle);
                 dataClick = listComputer.get(arg2);
                 startForResult.launch(intent);
@@ -242,8 +246,13 @@ public class InsertComputerActivity extends AppCompatActivity {
      */
     public void loadListComputerByCategory(String categoryid) {
         Cursor cur = database.query("tblComputer", null, "categoryid=?", new String[]{categoryid}, null, null, null);
-        cur.moveToFirst();
         listComputer = new ArrayList<InforData>();
+        InforData header = new InforData();
+        header.setField1("Mã máy tính");
+        header.setField2("Tên máy tính");
+        header.setField3("Giá máy tính");
+        listComputer.add(header);
+        cur.moveToFirst();
         while (cur.isAfterLast() == false) {
             InforData d = new InforData();
             d.setField1(cur.getInt(0));

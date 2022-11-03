@@ -35,15 +35,15 @@ public class ShowListActivity extends AppCompatActivity {
                     if (result.getResultCode() == MainActivity.SEND_DATA_FROM_CATEGORY_ACTIVITY) {
                         Intent data = result.getData();
                         Bundle bundle = data.getBundleExtra("DATA_CATEGORY");
-                        String f2 = bundle.getString("name");
-                        String f1 = dataClick.getField2().toString();
+                        String f3 = bundle.getString("name");
+                        String f2 = dataClick.getField2().toString();
                         ContentValues content = new ContentValues();
-                        content.put("name", f2);
+                        content.put("name", f3);
                         if (database != null) {
-                            int n = database.update("tblCategory", content, "id=?", new String[]{f1});
+                            int n = database.update("tblCategory", content, "id=?", new String[]{f2});
                             if (n > 0) {
                                 Toast.makeText(ShowListActivity.this, "update ok ok ok ", Toast.LENGTH_LONG).show();
-                                dataClick.setField2(f2);
+                                dataClick.setField3(f3);
                                 if (adapter != null)
                                     adapter.notifyDataSetChanged();
                             }

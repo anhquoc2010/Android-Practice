@@ -43,8 +43,8 @@ public class NewCategoryActivity extends AppCompatActivity {
 
         Bundle bundle = intent.getBundleExtra("DATA");
         if (bundle != null && bundle.getInt("KEY") == 1) {
-            String f2 = bundle.getString("getField2");
-            txtName.setText(f2);
+            String f3 = bundle.getString("getField3");
+            txtName.setText(f3);
             btnInsert.setText("Update");
             this.setTitle("View Detail");
 			/*TableRow row=(TableRow) findViewById(R.id.tableRow3);
