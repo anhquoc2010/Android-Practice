@@ -144,7 +144,7 @@ public class ShowListActivity extends AppCompatActivity {
                         }
                     });
                     b.show();
-                    return false;
+                    return true;
                 }
             });
         }
