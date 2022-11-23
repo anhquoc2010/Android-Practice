@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LoginListTest</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="username">Tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="remember_me">Nhớ mật khẩu</string>
+    <string name="forget">Quên mật khẩu?</string>
+    <string name="is_has_account">Chưa có tài khoản?</string>
+    <string name="signup">Đăng ký</string>
+    <string name="item_1">item1</string>
+    <string name="confirm_pass">Nhập lại mật khẩu</string>
+    <string name="is_has_account_yet">Bạn đã có tài khoản?</string>
+    <string name="ch_nh_s_ch_v_i_u_kho_n">chính sách và điều khoản</string>
+    <string name="okko">Đồng ý với</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "523825478933",
+    "firebase_url": "https://qlcaythuocnam-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "qlcaythuocnam",
+    "storage_bucket": "qlcaythuocnam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523825478933:android:a0d8f2851afbe47c6f3d1c",
+        "android_client_info": {
+          "package_name": "com.example.loginlisttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523825478933-6agtmbuq8230gbj7ru4s7oqajrdgqp5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSA8dLiSyIvf6b1y03zFYxxpVjXpOvkBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523825478933-6agtmbuq8230gbj7ru4s7oqajrdgqp5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

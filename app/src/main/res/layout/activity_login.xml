@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f4"
+    android:padding="25dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView_login"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/tv_login"
+        app:layout_constraintDimensionRatio="1:0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/hilogin"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/login"
+        android:textColor="@color/blue"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@id/editTextUserName_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView_login"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/editTextUserName_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rect_cursed"
+        android:hint="@string/username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/editTextPSWD_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_login"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextPSWD_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rect_cursed"
+        android:hint="@string/pass"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/textView_forget_pswd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextUserName_login"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView_forget_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/button_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPSWD_login" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius="250dp"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_forget_pswd"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text="@string/is_has_account"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_register_link"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_login" />
+
+    <TextView
+        android:id="@+id/textView_register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView3"
+        app:layout_constraintTop_toTopOf="@id/textView3" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_cursed"
+        android:indeterminateTint="@color/blue"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
