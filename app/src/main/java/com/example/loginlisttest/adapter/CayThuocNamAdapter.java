@@ -17,12 +17,12 @@ import java.util.ArrayList;
 
 public class CayThuocNamAdapter extends RecyclerView.Adapter<CayThuocNamAdapter.ViewHolder> {
     // creating variables for our ArrayList and context
-    private ArrayList<CayThuocNam> coursesArrayList;
+    private ArrayList<CayThuocNam> cayThuocNamArrayList;
     private Context context;
 
     // creating constructor for our adapter class
-    public CayThuocNamAdapter(ArrayList<CayThuocNam> coursesArrayList, Context context) {
-        this.coursesArrayList = coursesArrayList;
+    public CayThuocNamAdapter(ArrayList<CayThuocNam> cayThuocNamArrayList, Context context) {
+        this.cayThuocNamArrayList = cayThuocNamArrayList;
         this.context = context;
     }
 
@@ -36,17 +36,34 @@ public class CayThuocNamAdapter extends RecyclerView.Adapter<CayThuocNamAdapter.
     @Override
     public void onBindViewHolder(@NonNull CayThuocNamAdapter.ViewHolder holder, int position) {
         // setting data to our text views from our modal class.
-        CayThuocNam cayThuocNam = coursesArrayList.get(position);
+        CayThuocNam cayThuocNam = cayThuocNamArrayList.get(position);
         holder.ctnName.setText(cayThuocNam.getName());
         holder.ctnColor.setText(cayThuocNam.getColor());
         holder.ctnDes.setText(cayThuocNam.getDescription());
-        holder.ctnImage.setImageResource(cayThuocNam.getImage());
+//        holder.ctnImage.getResources().getIdentifier(cayThuocNam.getImage(), "drawable", context.getPackageName());
+        holder.ctnImage.setImageResource(context.getResources().getIdentifier(cayThuocNam.getImage(), "drawable", context.getPackageName()));
+
+        if (holder.ctnMark.getDrawable() == context.getResources().getDrawable(R.drawable.ic_baseline_favorite_border_24)) {
+            holder.ctnMark.setTag("unmarked");
+        } else {
+            holder.ctnMark.setTag("marked");
+        }
+
+        holder.ctnMark.setOnClickListener(v -> {
+            if (holder.ctnMark.getTag().equals("unmarked")) {
+                holder.ctnMark.setImageResource(R.drawable.ic_baseline_favorite_24);
+                holder.ctnMark.setTag("marked");
+            } else {
+                holder.ctnMark.setImageResource(R.drawable.ic_baseline_favorite_border_24);
+                holder.ctnMark.setTag("unmarked");
+            }
+        });
     }
 
     @Override
     public int getItemCount() {
         // returning the size of our array list.
-        return coursesArrayList.size();
+        return cayThuocNamArrayList.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
@@ -56,6 +73,8 @@ public class CayThuocNamAdapter extends RecyclerView.Adapter<CayThuocNamAdapter.
         private final TextView ctnDes;
         private final ImageView ctnImage;
 
+        private final ImageView ctnMark;
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             // initializing our text views.
@@ -63,6 +82,8 @@ public class CayThuocNamAdapter extends RecyclerView.Adapter<CayThuocNamAdapter.
             ctnColor = itemView.findViewById(R.id.tv_color);
             ctnDes = itemView.findViewById(R.id.tv_des);
             ctnImage = itemView.findViewById(R.id.iv_avatar);
+
+            ctnMark = itemView.findViewById(R.id.iv_mark);
         }
     }
 }

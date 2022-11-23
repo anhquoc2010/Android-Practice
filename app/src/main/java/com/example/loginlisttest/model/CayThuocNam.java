@@ -4,9 +4,12 @@ public class CayThuocNam {
     private String name;
     private String color;
     private String description;
-    private int image;
+    private String image;
 
-    public CayThuocNam(String name, String color, String description, int image) {
+    public CayThuocNam() {
+    }
+
+    public CayThuocNam(String name, String color, String description, String image) {
         this.name = name;
         this.color = color;
         this.description = description;
@@ -37,11 +40,11 @@ public class CayThuocNam {
         this.description = description;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(int image) {
+    public void setImage(String image) {
         this.image = image;
     }
 }

@@ -34,7 +34,7 @@
                 android:layout_centerHorizontal="true"
                 android:importantForAccessibility="no"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hilogin"
+                android:src="@drawable/cay1"
                 tools:ignore="ImageContrastCheck" />
         </androidx.cardview.widget.CardView>
 
@@ -87,7 +87,7 @@
             android:layout_height="40dp"
             android:importantForAccessibility="no"
             android:padding="0dp"
-            android:src="@drawable/hilogin"
+            android:src="@drawable/ic_baseline_favorite_border_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck" />
