@@ -1,0 +1,9 @@
+
+w
+java:S1450"aRemove the "cayThuocNamAdapter" field and declare it as a local variable in the relevant methods.(ÚÞ½á
+y
+java:S1450"cRemove the "cayThuocNamArrayList" field and declare it as a local variable in the relevant methods.(¯Ä¬ 
+l
+java:S1450"QRemove the "db" field and declare it as a local variable in the relevant methods.(î–æ‡üÿÿÿÿ
+B
+java:S1602V",Remove useless curly braces around statement(úÌä 
